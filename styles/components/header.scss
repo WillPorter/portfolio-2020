@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+
+    @include lg-screen {
+        justify-content: flex-end;
+        padding: 0 50px;
+    }
+}
